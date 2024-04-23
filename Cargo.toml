@@ -14,7 +14,7 @@ build = "build.rs"
 rust-version = "1.66.1"
 
 [dependencies]
-mimalloc = { version = "0.1.31", optional = true }
+mimalloc = { version = "0.1.41", optional = true }
 calypso_parsing = { path = "libs/calypso_parsing", version = "0.1.0" }
 calypso_diagnostic = { path = "libs/calypso_diagnostic", version = "0.1.0" }
 calypso_repl = { path = "libs/calypso_repl", version = "0.1.0" }
