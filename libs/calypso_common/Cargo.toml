@@ -11,7 +11,7 @@ license = "MIT OR Apache-2.0"
 rust-version = "1.66.1"
 
 [dependencies]
-parking_lot = "0.12.1"
+parking_lot = "0.12.2"
 
 [dependencies.calypso_base]
 path = "../calypso_base"
