@@ -168,7 +168,7 @@ dependencies = [
  "calypso_base",
  "calypso_common",
  "calypso_diagnostic",
- "itertools",
+ "itertools 0.13.0",
  "lalrpop",
  "lalrpop-util",
  "lazy_static",
@@ -685,6 +685,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "itertools"
+version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "413ee7dfc52ee1a4949ceeb7dbc8a33f2d6c088194d9f922fb8318faf1f01186"
+dependencies = [
+ "either",
+]
+
+[[package]]
 name = "itoa"
 version = "1.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -710,7 +719,7 @@ dependencies = [
  "bit-set",
  "diff",
  "ena",
- "itertools",
+ "itertools 0.10.5",
  "lalrpop-util",
  "petgraph",
  "pico-args",
@@ -1569,7 +1578,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a34cc558345efd7e88b9eda9626df2138b80bb46a7606f695e751c892bc7dac6"
 dependencies = [
  "indexmap",
- "itertools",
+ "itertools 0.10.5",
  "nom8",
  "serde",
  "toml_datetime",
